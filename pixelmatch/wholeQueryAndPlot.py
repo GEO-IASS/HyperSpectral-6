@@ -74,6 +74,6 @@ for c in sig:
                 hist_arr.append(min(err_arr))
         n,bins,patches = plt.hist(hist_arr, 50)
         plt.xlabel("min. sq. error")
-        plt.yabel("Frequency")
+        plt.ylabel("Frequency")
         plt.grid(True)
         plt.savefig("Material_"+c+".jpeg")
